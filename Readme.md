@@ -1,4 +1,4 @@
-### multi data storing clipboard 
+###  Multi-clipboard clipit 
 
 using this python script you can save multiple data in clipboard in different tags and can access those data using tags when ever you wish .Now you can search through your clipboard with ease 
 
