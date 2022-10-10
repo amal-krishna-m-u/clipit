@@ -5,7 +5,7 @@ using this python script you can save multiple data in clipboard in different ta
 
 1.scripting languages used 
 
-  1.1. Python
+  1.1. Python   
   1.2. bash
 
 
@@ -19,9 +19,9 @@ using this python script you can save multiple data in clipboard in different ta
 
 3.pre-prerequisite
 
-  3.1. python3
-  3.2. install clipboard python module (use cmd "pip install clipboard")
-  3.3. bash shell
+  3.1. python3  
+  3.2. install clipboard python module (use cmd "pip install clipboard")    
+  3.3. bash shell  
 
 
 
