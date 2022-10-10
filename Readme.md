@@ -1,9 +1,9 @@
-###  Multi-clipboard clipit 
+#  Multi-clipboard clipit 
 
 using this python script you can save multiple data in clipboard in different tags and can access those data using tags when ever you wish .Now you can search through your clipboard with ease 
 
 
-1.scripting languages used 
+## 1.scripting languages used 
 
   1.1. Python   
   1.2. bash
@@ -11,13 +11,13 @@ using this python script you can save multiple data in clipboard in different ta
 
 
 
-2.for storing data
+## 2.for storing data
 
   2.1.json
 
 
 
-3.pre-prerequisite
+## 3.pre-prerequisite
 
   3.1. python3  
   3.2. install clipboard python module (use cmd "pip install clipboard")    
@@ -27,7 +27,7 @@ using this python script you can save multiple data in clipboard in different ta
 
 
 
-4.To run it in terminal directly (for linux distro)  
+## 4.To run it in terminal directly (for linux distro)  
 
   4.1 step 1: move clipit.sh to /bin using cmd 
 
@@ -54,7 +54,7 @@ using this python script you can save multiple data in clipboard in different ta
              
           
 
-5.How to use
+## 5.How to use
 
    5.1  To copy currently copied clipboard text to clipit use cmd 
 
@@ -68,4 +68,4 @@ using this python script you can save multiple data in clipboard in different ta
     for listing the keywords "list"
     
 
-By Amal krishna M U 
+### @By Amal krishna M U 
