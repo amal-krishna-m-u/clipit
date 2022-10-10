@@ -39,10 +39,24 @@ using this python script you can save multiple data in clipboard in different ta
 
 
              >> sudo chmod +x /bin/clipit.sh
+             
+             
+  4.3 step 3: create a file path as follows
+  
+  
+              >>"/home/clipboard/clipit.json"
+          
+          
+          
+  4.4 step 4: update the <path> in the clipit.sh file with the path where this repo is cloned 
+  
+              >> python3 <path>clipit.py $1
+             
+          
 
 5.How to use
 
-   5.1  To copy currently copied clipboard text to cli     pit use cmd 
+   5.1  To copy currently copied clipboard text to clipit use cmd 
 
       
       >>bash clipit.sh -key
@@ -51,6 +65,7 @@ using this python script you can save multiple data in clipboard in different ta
 
     for saving "save"
     for copying from list "load"
+    for listing the keywords "list"
     
 
 By Amal krishna M U 
