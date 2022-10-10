@@ -2,7 +2,7 @@ import sys
 import clipboard
 import json
 
-SAVED_DATA = "clipit.json"
+SAVED_DATA = "/home/clipboard/clipit.json"
 
 def save_data(filepath, data):
     with open(filepath,"w") as f:
