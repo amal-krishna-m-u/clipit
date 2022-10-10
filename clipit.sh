@@ -1,3 +1,3 @@
 #!/bin/bash
-python3 /home/sinister/Projects/Python/Multiclipboard/clipit.py $1 
+python3 < PATH >clipit.py $1 
 
