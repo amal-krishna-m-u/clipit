@@ -25,13 +25,13 @@ if len(sys.argv) == 2:
     command = sys.argv[1]
     data = load_data(SAVED_DATA)
 
-    if command == "save":
+    if command == "s":
         key = input("Enter a key: ")
         data[key]=clipboard.paste()
         save_data(SAVED_DATA, data)
         print("Data saved ***")  
 
-    elif command == "load":
+    elif command == "lo":
         key = input("Ente a key: ")
         if key in data:
             clipboard.copy(data[key])
@@ -39,13 +39,16 @@ if len(sys.argv) == 2:
         else:
             print("key doesn't exist.")
 
-    elif command =="list":
+    elif command =="ls":
         print("list")
         print(data.keys())
+   elif command =="-h":
+        print("\n \n #Save clipboard data to clipit: clipit s \n \n #load data from clipit to clipboard : clipit lo \n \n #list tagnames saved in clipit : clipit ls \n \n")
     else:
-        print("Unknown command .")
+        print("Unknown command . Use clipit.sh -h for help")
 
 else:
-    print("Please pass exactly one text >>")
+    print("Please pass exactly one text >> Use clipit.sh -h for help")
+
 
 
