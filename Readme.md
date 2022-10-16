@@ -59,13 +59,15 @@ using this python script you can save multiple data in clipboard in different ta
    5.1  To copy currently copied clipboard text to clipit use cmd 
 
       
-      >>bash clipit.sh -key
+      >>clipit.sh -key
+    
+    note: if you want you can change the file name clipit.sh in bin folder to your  desired name such as clipit or what fits you ,use that name to access     the extension
 
    5.2  key are 
 
-    for saving "save"
-    for copying from list "load"
-    for listing the keywords "list"
+    for saving "s"
+    for copying from list "lo"
+    for listing the keywords "ls"
     
 
 ### @By Amal krishna M U 
