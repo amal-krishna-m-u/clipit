@@ -72,3 +72,5 @@ using this python script you can save multiple data in clipboard in different ta
     
 
 ### @By Amal krishna M U 
+  
+  24-5-2023
